@@ -1,0 +1,103 @@
+
+
+// USER LIST PAGE START
+.list-page{
+    .user-container {
+        // display: flex;
+        // flex-direction: row;
+        // justify-content: center;
+        // align-items: flex-start;
+        display: flex;
+        flex-wrap: wrap;
+        .user-comp{
+            width: 200px;
+            height: 250px;
+            cursor: pointer;
+            border-radius: 4px;
+            &:hover{
+                background: #f2ecff;
+            }
+        }
+    }
+}
+
+.flat-btn{
+    width: 140px;
+    margin: 10px;
+	padding: 5px 20px;
+    border-radius: 4px;
+    border: none;
+    outline: none;
+    background: #00af81;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+    &:hover{
+        background: #02926c;
+    }
+}
+
+// USER LIST PAGE END
+
+// USER DETAILS PAGE START
+.image-banner{
+    .profile-image{
+        .image-area{
+            display: inline-block;
+            background: #715ec0;
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+
+            img{
+                display: inline-block;
+                background: #715ec0;
+                width: 250px;
+                height: 250px;
+                border-radius: 50%; 
+            }
+        }        
+    }
+}
+.card{
+    margin-bottom: 30px;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1 solid rgba(0,0,0,0.125);
+    border-radius: 4px;
+    box-shadow: 0px 1px 3px 0px rgba(54,74,99,0.05);
+    .card-inner{
+        .card-content{
+            padding: 20px;
+            .details-view{
+                display: block;
+                margin-bottom: 20px;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                .content{
+                    width: 100%;
+                    .content-lable{  
+                        width: 70%;              
+                        padding-top:3px;
+                        color: #808080;
+                        font-size:24px ;
+                        line-height: 20px;
+                        font-weight: 500;
+                    }
+                    .content-text{ 
+                        display: inline-block;
+                        color: #212529;
+                        font-size:24px ;
+                        font-weight: 400;
+                        word-wrap: break-word;
+                        line-height: 20px;
+                    }
+                }
+            }
+        }
+    }
+}
+// USER DETAILS PAGE END
